@@ -1,6 +1,6 @@
 # Create a Security Group that allows SSH, HTTP, and HTTPS
 resource "aws_security_group" "allow_ports" {
-  name        = "allow-port"
+  name        = "allow-ports"
   description = "Allow SSH, HTTP, and HTTPS"
 
 

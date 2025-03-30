@@ -6,6 +6,6 @@ module "dynamo" {
   source = "./Modules/dynamo"
 }
 
-module "hand-on"{
-  source = "./Environments/Hand-on"
+module "hand-on" {
+  source = "./Environments/Hand-on/"
 }
